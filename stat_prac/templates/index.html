@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{% load static %}
+    <head>
+        <meta charset="utf-8">
+        <title>The Title</title>
+        <link rel="stylesheet" href="{% static 'main.css' %}">
+    </head>
+    <body>
+        <h1>Dis is the stuff</h1>
+        <button type="button" name="button" onclick="buttonFunc()" >Click for green</button>
+        <button type="button" name="button" onclick="backhome()" >Click for blue</button>
+
+
+        <img src="{% static 'images/snuffy.jpg' %}" style="width:500px" onclick="snuffy()">
+        <script type="text/javascript" src="{% static 'main.js' %}" >
+
+        </script>
+
+    </body>
+</html>
